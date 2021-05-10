@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.9.5
 
 COPY manage.py gunicorn-cfg.py requirements.txt .env ./
 COPY app app
